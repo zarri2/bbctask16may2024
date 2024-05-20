@@ -1,0 +1,40 @@
+.parent1 {
+    display: flex;
+    align-items: center;
+    
+}
+.parent1-child1, .parent1-child2, .parent1-child3 {
+    width: 30%;
+}
+
+.parent1-child2 h1 {
+    text-align: center;
+    font-size: 2.4vw;
+}
+
+.parent1-child3 input {
+    font-size: 1.8vw;
+}
+.parent1-child3 input:nth-child(1) {
+    background-color: rgb(27, 7, 7);
+    color: white;
+    border: 2px whitesmoke;
+    padding: 0.8vw 1vw;
+    font-size: 1em;
+}
+/*.parent1-child3:hover input:nth-child(2) {
+    font-size: 1em;
+}*/
+.parent1-child3 input:last-child:hover {
+    background-color: black;
+    color: white;
+    padding: 0.8vw 1vw;
+    
+
+}
+
+.parent1-child3 {
+    display: flex;
+    
+    
+}

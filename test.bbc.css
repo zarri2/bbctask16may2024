@@ -1,0 +1,103 @@
+.parent1 {
+    display: flex;
+    align-items: center;
+   
+    
+}
+.parent1-child1, .parent1-child2, .parent1-child3 {
+    width: 32%;
+}
+.parent1-child1 {
+    margin-left: 6px;
+}
+.parent1-child1 h1 {
+    text-align: center;
+    font-size: 2.4vw
+    
+
+}
+
+.parent1-child3 input {
+    font-size: 1.8vw;
+}
+.parent1-child3 input:nth-child(1) {
+    color: white;
+    background-color: black;
+    font-size: 1em;
+
+}
+.parent1-child3 input:nth-child(2) {
+    font-size: 1em;
+    background-color: white;
+    padding: 3px;
+}
+
+.parent1-child3 input:last-child:hover {
+    background-color: black;
+    color: white;
+    border: none;
+    
+    
+}
+.parent1-child2 {
+    margin-left: 34vw;
+}
+.parent1-child3 {
+    margin-left: 30vw;
+}
+.nivbar {
+    text-align: center;
+    border-top: 1px solid #00000052;
+    border-bottom: 1px solid #00000052;
+    padding: 10px;
+    width: 98%;
+    color: black;
+    font-size: 1em;
+    word-spacing: 4px;
+    
+
+}
+.nivbar a {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+.lastnivbar {
+    margin-left: 40px;
+    padding: 10px;
+    font-size: 1em;
+    word-spacing: 10px;
+}
+.lastnivbar a {
+    text-decoration: none;
+    color: black;
+}
+.languages {
+    padding: 20px;
+    height: 3vh;
+
+}
+.lastbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+    margin-left: 1vw;
+    
+}  
+.lastbar {
+    margin-top: 25px;
+    margin-left: 3vw;
+}   
+
+.copyrighttext {
+    font-size: 1vw;
+    margin-left: 4vw;
+    
+}
+span a {
+    text-decoration: none;
+    border: none;
+    color: black;
+}
